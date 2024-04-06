@@ -1,0 +1,36 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Make sure to be on HyperOS firmware.
+- Clean flash is required if coming from March build.
+- Install KSU boot.img for root.
+- Play Integrity passes by default (As of 04/08/2024).
+- Includes Dolby Atmos, Dolby Vision, Stock POCO camera.
+- Credits to GR, Chaitanya, Adrianyyyy.
+
+Device changes:
+==============================
+Bring back Dolby Vision
+Disable autobrightness by default
+Optimize statusbar paddings
+Switch to LOS trees
+Use libgrpc++_unsecure from stock
+rootdir: Fix the battery drain due to statsd
+
+Notable ROM changes:
+==============================
+AndroidBlackTheme: Make the QS footer transparent for black theme
+AndroidBlackTheme: Move color resources to night
+AndroidBlackTheme: Update colors
+Bring back Link to Windows
+Disable Navbar radius customization if hint disabled
+Fix-up starting style&wallpaper from search
+Initial Android 14 QPR2 release
+Merge April security patches
+Refactor AppPicker page to adopt Settings main theme
+Settings: Add icon for emergency broadcasts
+Settings: Import missing Face Unlock animation
+Settings: Remove dividers in Network & Internet
+Update BCR to v1.62
+clocks: update from husky-ap1a.240405.002

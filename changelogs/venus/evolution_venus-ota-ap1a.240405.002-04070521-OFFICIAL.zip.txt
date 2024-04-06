@@ -1,0 +1,26 @@
+This is Android 14 with April 2024 QPR2 (r30) security patches
+
+Notes:
+==============================
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Install ksu-boot.img or Magisk for root.
+- Play Integrity passes by default (As of 04/07/2024).
+- Uses crdroid kernel.
+- Includes Dirac audio, Dolby Vision, Viper4Android, Leica camera.
+- Credits to FlowerSea, kamikonashi, ArianK16a, AdarshGrewal.
+
+Device changes:
+==============================
+Disable display refresh rate override
+Don't explicitly include updatable_apex.mk
+Remove obsolete debug.sf.disable_backpressure
+Set debug.sf.enable_hwc_vds to 0
+gps: Don't include cutils/threads.h
+parts: Enable use_resource_processor for all sysui deps
+parts: Migrate to CompoundButton.OnCheckedChangeListener
+rootdir: Fix the battery drain due to statsd
+
+Notable ROM changes:
+==============================
+Initial Android 14 QPR2 update
+Merge April 2024 security patches
